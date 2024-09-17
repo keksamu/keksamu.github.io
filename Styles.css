@@ -1,0 +1,28 @@
+body {
+    background-image: url(Metsä/SS\ metsäkuva.jpg);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+header {
+    background-color: #587710; 
+}
+h1 {
+    text-align: center;
+    margin: 0;
+}
+button {
+    margin-left: 100px;
+    margin-bottom: 10px;
+} 
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FCFAF2;
+    color: #7F7F7F;
+    text-align: center;
+    padding: 1%;
+  }
