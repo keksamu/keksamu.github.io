@@ -27,8 +27,14 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    font-family: "Bariol";
     background-color: #FCFAF2;
     color: #7F7F7F;
     text-align: center;
-    padding: 1%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
   }
+ 
