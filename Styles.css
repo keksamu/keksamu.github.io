@@ -118,4 +118,31 @@ h2 {
     font-size: larger;
 }
 
+/*mobiilikoko*/
+@media (max-width: 600px) {
+    #alisivut {
+        background-image: url(Metsä/UUs\ marja.jpg);
+    }
+    #etusivu {
+        background-image: url(Metsä/SS\ metsäkuva.jpg);
+        background-size:cover;
+        /*max-width: 100%;height: auto;*/
+        padding-bottom: 300px;
+    }
+    nav a { 
+        font-size: 20px;
+    }
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nappula {
+        flex-direction:row;
+        text-align: center;
+        text-align: center;
+        margin-right: 200px;
+        font-size: 20px;
+    }
+}
+
 
