@@ -114,11 +114,11 @@ h2 {
     max-width: 500px;
     width: 100%;
 }
-#hinnat {
+.hinnat {
     font-size: larger;
 }
 
-/*mobiilikoko*/
+/*mobiilikoko etusivu valmis*/
 @media (max-width: 600px) {
     #alisivut {
         background-image: url(Metsä/UUs\ marja.jpg);
