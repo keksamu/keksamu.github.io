@@ -34,6 +34,18 @@ nav a {
     display: inline-flex;
     border: 15px solid #587710;
 }
+nav a:hover {
+    color: #7F7F7F;
+}
+#vali1 {
+    color: black;
+}
+#vali2 {
+    color: black;
+}
+#valittu {
+    color: #FCFAF2;
+}
 h1 {
     color: #FCFAF2;
     font-family: "Bariol";
@@ -47,6 +59,9 @@ h1 {
 }
 #alapalkki_yhteys {
     position: fixed;
+}
+#palveluth1 {
+    padding-top: 75px;
 }
 .nappula {
     border: 3px solid black;
@@ -113,7 +128,7 @@ h2 {
     gap: 10px;
     padding: 10px;
 }
-.grid-teksti1 { grid-area: g1; }
+.grid-teksti1 { grid-area: g1;}
 .grid-teksti2 { grid-area: g2;}
 
 .kuva {
@@ -167,6 +182,9 @@ h2 {
         font-size: 30px;
         padding-top: 10px;
     }
+    #alapalkki_yhteys {
+        position: relative;
+    }
     #alapalkki_index {
         position: fixed;
     }
@@ -180,6 +198,8 @@ h2 {
         'g3'
         'g2';
     }
+    .grid-teksti1 { grid-area: g2;}
+    .grid-teksti2 { grid-area: g2;}
 }
 
 
