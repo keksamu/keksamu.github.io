@@ -1,8 +1,10 @@
+/*fontti*/
 @font-face {
     font-family: "Bariol";
     src: url(Bariol_Regular.otf);
 }
 
+/*Sivut*/
 body {
     background-image: url(Metsä/SS\ metsäkuva.jpg);
     margin: 0;
@@ -142,7 +144,7 @@ h2 {
     position: fixed;
 }
 
-/*mobiilikoko etusivu valmis*/
+/*mobiilikoko*/
 @media (max-width: 600px) {
     #alisivut {
         background-image: url(Metsä/UUs\ marja.jpg);
