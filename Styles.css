@@ -136,6 +136,10 @@ h2 {
 .kuva {
     max-width: 500px;
     width: 100%;
+    border: 10px solid #7F7F7F;
+}
+#kartta {
+    border: 7px solid #7F7F7F;
 }
 .hinnat {
     font-size: larger;
@@ -200,8 +204,18 @@ h2 {
         'g3'
         'g2';
     }
+
     .grid-teksti1 { grid-area: g2;}
     .grid-teksti2 { grid-area: g2;}
+
+    .kuva {
+        max-width: 700px;
+        width: 100%;
+        border: 6px solid #7F7F7F;
+    }
+    #kartta {
+        border: 5px solid #7F7F7F;
+    }
 }
 
 
