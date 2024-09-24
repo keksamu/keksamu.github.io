@@ -76,7 +76,7 @@ h1 {
     display: inline-block;
     font-size: 35px;
     text-decoration: none;
-    margin-left: 41%;
+    margin-left: 40%;
     margin-top: 4%;
 }
 .nappula:hover {
@@ -154,28 +154,24 @@ h2 {
         background-image: url(Metsä/UUs\ marja.jpg);
     }
     #etusivu {
-        background-image: url(Metsä/SS\ metsäkuva.jpg);
-        background-size:cover;
-        padding-bottom: 300px;
+        background-image: url(Metsä/Metsäkuva_Mobiili.jpg);
+        background-size: cover;
+        height: 840px;
+    }
+    nav {
+        width: 100%;
     }
     nav a { 
-        font-size: 20px;
+        font-size: 60%;
     }
     footer{
-        flex-direction: row;
-        text-align: left;
-        position: relative;
-        bottom: 0;
-        width: 100%;
-        max-height: 10%;
-        padding-top: 13px;
+        flex-direction: column;
+        text-align: center;
     }
     .nappula {
-        flex-direction:row;
         text-align: center;
-        text-align: center;
-        margin-right: 200px;
         font-size: 20px;
+        margin-left: 30%;
     }
     .esittely {
         font-size: 15px;
@@ -214,6 +210,7 @@ h2 {
         border: 6px solid #7F7F7F;
     }
     #kartta {
+        width: 100%;
         border: 5px solid #7F7F7F;
     }
 }
