@@ -65,18 +65,21 @@ h1 {
 #palveluth1 {
     padding-top: 75px;
 }
+#div_nappula{
+    text-align: center;
+
+}
 .nappula {
     border: 3px solid black;
     border-radius: 10px;
     font-family: "Bariol";
-    text-align: center;
     color: #FCFAF2;
     padding: 20px 10px;
     background-color: #587710;
     display: inline-block;
     font-size: 35px;
     text-decoration: none;
-    margin-left: 40%;
+    /*margin-left: 40%;*/
     margin-top: 4%;
 }
 .nappula:hover {
@@ -154,9 +157,9 @@ h2 {
         background-image: url(Metsä/UUs\ marja.jpg);
     }
     #etusivu {
-        background-image: url(Metsä/Metsäkuva_Mobiili.jpg);
+        background-image: url(Metsä/SS\ metsäkuva.jpg);
         background-size: cover;
-        height: 840px;
+        height: 700px;
     }
     nav {
         width: 100%;
@@ -169,9 +172,7 @@ h2 {
         text-align: center;
     }
     .nappula {
-        text-align: center;
         font-size: 20px;
-        margin-left: 30%;
     }
     .esittely {
         font-size: 15px;
