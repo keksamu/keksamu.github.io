@@ -163,6 +163,9 @@ h2 {
         background-repeat: no-repeat;
         min-height: 100vh; 
     }
+    #Slogan {
+        padding-top: 100px;
+    }
     nav {
         width: 100%;
     }
