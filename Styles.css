@@ -54,7 +54,7 @@ h1 {
     font-size: 42px;
     text-align: center;
     text-shadow: 3px 3px black;
-    padding-top: 10%;
+    padding-top: 15%;
 }
 #yhteysh1 {
     padding-top: 5%;
@@ -218,6 +218,12 @@ h2 {
     #kartta {
         width: 100%;
         border: 5px solid #7F7F7F;
+    }
+}
+
+@media (max-width: 1280px) {
+    #Slogan {
+        padding-top: 5%;
     }
 }
 
