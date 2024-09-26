@@ -54,10 +54,10 @@ h1 {
     font-size: 42px;
     text-align: center;
     text-shadow: 3px 3px black;
-    padding-top: 200px;
+    padding-top: 10%;
 }
 #yhteysh1 {
-    padding-top: 180px;
+    padding-top: 5%;
 }
 #alapalkki_yhteys {
     position: fixed;
@@ -220,5 +220,4 @@ h2 {
         border: 5px solid #7F7F7F;
     }
 }
-
 
